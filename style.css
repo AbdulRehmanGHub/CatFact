@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/portrait-cat-blurred-background_181624-25983.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.cat-fact {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #555;
+    min-height: 50px;
+}
+
+.cloud-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6000a0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cloud-button:hover {
+    background-color: #2d0096;
+}
+
+.loading {
+    font-size: 1rem;
+    color: #888;
+    margin-top: 10px;
+    display: none;
+}
